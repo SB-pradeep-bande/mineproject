@@ -1,0 +1,9 @@
+title: profile
+x-stoplight:
+  id: dk94cdbckexmp
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: whie99exv2hgd
