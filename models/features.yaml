@@ -1,0 +1,9 @@
+title: features
+x-stoplight:
+  id: 2njnw0aib13i4
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: d4vyc0c9xz830
