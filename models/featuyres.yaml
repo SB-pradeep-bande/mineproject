@@ -1,0 +1,9 @@
+title: featuyres
+x-stoplight:
+  id: uc4fqbz66y3zr
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: kafq7uas6vdjs
