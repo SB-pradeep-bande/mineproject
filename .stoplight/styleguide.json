@@ -46,6 +46,18 @@
       },
       "name": "Rule1-duplicate-duplicate",
       "message": "Testing style guide refresh issue"
+    },
+    "Rule2": {
+      "id": "h3MXoodnjpP1PXIsDB-W2",
+      "given": [
+        "$.info"
+      ],
+      "severity": "info",
+      "then": {
+        "function": "defined"
+      },
+      "name": "Rule2",
+      "message": "Testing style guide refresh issue"
     }
   },
   "x-embeddedFunctions": [
