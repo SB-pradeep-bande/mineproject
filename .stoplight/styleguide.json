@@ -1,0 +1,60 @@
+{
+  "name": "mineproject",
+  "description": "",
+  "spectralExtends": [],
+  "extends": [],
+  "formats": [
+    "oas2",
+    "oas3",
+    "oas3.0",
+    "oas3.1"
+  ],
+  "aliases": {},
+  "rules": {
+    "Rule1": {
+      "id": "w04rPC8wNHOVQ5oiZrkVd",
+      "given": [
+        "$.info"
+      ],
+      "severity": "info",
+      "then": {
+        "function": "defined"
+      },
+      "name": "Rule1",
+      "message": "Testing style guide refresh issue"
+    },
+    "Rule1-duplicate": {
+      "id": "rlzz305twBA217VeP-jUl",
+      "given": [
+        "$.info"
+      ],
+      "severity": "info",
+      "then": {
+        "function": "defined"
+      },
+      "name": "Rule1-duplicate",
+      "message": "Testing style guide refresh issue"
+    },
+    "Rule1-duplicate-duplicate": {
+      "id": "dwfAkoHQyvZdaXJ4ib-VI",
+      "given": [
+        "$.info"
+      ],
+      "severity": "info",
+      "then": {
+        "function": "defined"
+      },
+      "name": "Rule1-duplicate-duplicate",
+      "message": "Testing style guide refresh issue"
+    }
+  },
+  "x-embeddedFunctions": [
+    {
+      "id": "G8Kz-CNyeA66Fae_WDTum",
+      "extendedFrom": "",
+      "name": "styleGuide",
+      "content": "import { createRulesetFunction } from '@stoplight/spectral-core';\n\nexport default createRulesetFunction(\n  {\n    input: null,\n    options: {\n      type: \"object\",\n      additionalProperties: false,\n\n      properties: {\n        exceptions: {\n          type: \"array\",\n\n          items: {\n            type: \"string\"\n          }\n        }\n      }\n    },\n  },\n  // https://github.com/stoplightio/spectral/blob/develop/docs/guides/5-custom-functions.md#writing-functions\n  function styleGuide(input, options, context) {},\n);"
+    }
+  ],
+  "extendedDefault": false
+}
