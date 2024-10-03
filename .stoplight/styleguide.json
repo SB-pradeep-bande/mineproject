@@ -9,7 +9,13 @@
     "oas3.0",
     "oas3.1"
   ],
-  "aliases": {},
+  "aliases": {
+    "demo": {
+      "id": "g1V5sN4-EiaG0VjJwqmLb",
+      "name": "demo",
+      "targets": []
+    }
+  },
   "rules": {
     "Rule1": {
       "id": "w04rPC8wNHOVQ5oiZrkVd",
