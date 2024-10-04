@@ -1,0 +1,9 @@
+title: new
+x-stoplight:
+  id: aqwbj8slyhbmn
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: 00knf8a1b6cgi
