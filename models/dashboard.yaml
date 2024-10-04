@@ -1,0 +1,9 @@
+title: dashboard
+x-stoplight:
+  id: q8b85nzk644zy
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: ozo9fh3fcwatd
