@@ -1,9 +1,0 @@
-title: bugs
-x-stoplight:
-  id: so5cl3ehb2nim
-type: object
-properties:
-  id:
-    type: string
-    x-stoplight:
-      id: inqr5yih1bkcj
