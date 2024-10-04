@@ -1,0 +1,9 @@
+title: auth
+x-stoplight:
+  id: jv6si63eictrb
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: 8zrvqsur49wzm
