@@ -53,7 +53,7 @@
       "id": "G8Kz-CNyeA66Fae_WDTum",
       "extendedFrom": "",
       "name": "styleGuide",
-      "content": "import { createRulesetFunction } from '@stoplight/spectral-core';\n\nexport default createRulesetFunction(\n  {\n    input: null,\n    options: {\n      type: \"object\",\n      additionalProperties: false,\n\n      properties: {\n        exceptions: {\n          type: \"array\",\n\n          items: {\n            type: \"string\"\n          }\n        }\n      }\n    },\n  },\n  \n  function styleGuide(input, options, context) {},\n);"
+      "content": "import { createRulesetFunction } from '@stoplight/spectral-core';\n\nexport default createRulesetFunction(\n  {\n    input: null,\n    options: {\n      type: \"object\",\n      additionalProperties: false,\n\n      properties: {\n        exceptions: {\n          type: \"array\",\n\n          items: {\n            type: \"string\"\n          }\n        }\n      }\n    },\n  },\n  function styleGuide(input, options, context) {},\n);"
     }
   ],
   "extendedDefault": false
